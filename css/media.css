@@ -1,0 +1,64 @@
+@media screen  and (max-width:1120px){
+    .catalog__card a{
+        gap: 20px;
+        max-width: 250px;
+    }
+}
+
+@media screen  and (max-width:1080px){
+    .banner__title{
+        font-size: 70px;
+        line-height: 85px;
+    }
+
+    .banner__h{
+        font-size: 30px;
+    }
+       
+    .catalog__card a{
+        max-width: 225px;
+    }
+
+    .nav__menu-f{
+        gap: 15px;
+    }
+}
+
+@media screen  and (max-width:1000px){
+    .banner__title{
+        font-size: 60px;
+        line-height: 80px;
+    } 
+
+    .banner__h{
+        font-size: 20px;
+    }
+
+    .aboutus__desc-p{
+        font-size: 15px;
+    }
+
+    .aboutus__img img{
+        width: 500px;
+    }
+
+    .aboutus__desc{
+        gap: 10px;
+    }
+}
+
+@media screen  and (max-width:893px){
+    .aboutus__wrap{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .aboutus__desc-p{
+        font-size: 18px;
+    }
+
+    .aboutus__img img{
+        width: 600px;
+    }
+}
